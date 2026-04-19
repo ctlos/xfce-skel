@@ -90,6 +90,7 @@
     <property name="plugin-7" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="mpris-players" type="string" value="smplayer"/>
+      <property name="mixer-command" type="string" value="pavucontrol-qt"/>
     </property>
     <property name="plugin-8" type="string" value="showdesktop"/>
     <property name="plugin-9" type="string" value="xkb">
