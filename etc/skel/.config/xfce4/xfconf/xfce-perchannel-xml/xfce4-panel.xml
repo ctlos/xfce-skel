@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xfce4-panel" version="1.0">
   <property name="configver" type="int" value="2"/>
@@ -8,7 +8,7 @@
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="24"/>
+      <property name="size" type="uint" value="27"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="4"/>
         <value type="int" value="8"/>
@@ -19,7 +19,9 @@
         <value type="int" value="1"/>
         <value type="int" value="7"/>
         <value type="int" value="9"/>
+        <value type="int" value="13"/>
         <value type="int" value="5"/>
+        <value type="int" value="12"/>
         <value type="int" value="2"/>
         <value type="int" value="11"/>
       </property>
@@ -43,7 +45,7 @@
         <value type="string" value="-logout-dialog"/>
       </property>
     </property>
-    <property name="plugin-3" type="string" value="tasklist">
+    <property name="plugin-3" type="string" value="docklike">
       <property name="show-handle" type="bool" value="false"/>
       <property name="include-all-workspaces" type="bool" value="true"/>
       <property name="flat-buttons" type="bool" value="false"/>
@@ -59,7 +61,7 @@
       <property name="digital-format" type="string" value="%T"/>
       <property name="digital-time-format" type="string" value="%R"/>
       <property name="digital-layout" type="uint" value="3"/>
-      <property name="digital-time-font" type="string" value="Clear Sans Medium, Medium 10"/>
+      <property name="digital-time-font" type="string" value="Clear Sans Medium, Medium 12"/>
     </property>
     <property name="plugin-6" type="string" value="systray">
       <property name="names-visible" type="array">
@@ -96,7 +98,18 @@
     </property>
     <property name="plugin-1" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="xfce4-clipman-plugin"/>
-    <property name="plugin-11" type="string" value="wckbuttons"/>
-    <property name="plugin-3" type="string" value="docklike"/>
+    <property name="plugin-11" type="string" value="wckbuttons">
+      <property name="only-maximized" type="bool" value="true"/>
+      <property name="show-on-desktop" type="bool" value="false"/>
+      <property name="sync-wm-theme" type="bool" value="true"/>
+      <property name="button-layout" type="string" value="HMC"/>
+      <property name="theme" type="string" value="Arc-Dark"/>
+    </property>
+    <property name="plugin-12" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
   </property>
 </channel>

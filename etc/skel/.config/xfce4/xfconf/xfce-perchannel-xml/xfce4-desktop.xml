@@ -430,6 +430,6 @@
     <property name="tooltip-size" type="double" value="48.000000"/>
     <property name="icon-size" type="uint" value="36"/>
     <property name="use-custom-font-size" type="bool" value="true"/>
-    <property name="font-size" type="double" value="10.000000"/>
+    <property name="font-size" type="double" value="11"/>
   </property>
 </channel>

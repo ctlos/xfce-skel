@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.1" encoding="UTF-8"?>
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
@@ -23,17 +23,25 @@
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="empty"/>
     <property name="ColorPalette" type="empty"/>
-    <property name="FontName" type="string" value="Clear Sans Medium, Medium 11"/>
-    <property name="MonospaceFontName" type="string" value="Hack Nerd Font Mono 11"/>
+    <property name="FontName" type="string" value="Clear Sans Medium, Medium 12"/>
+    <property name="MonospaceFontName" type="string" value="Hack Nerd Font Mono 12"/>
     <property name="IconSizes" type="empty"/>
     <property name="KeyThemeName" type="empty"/>
-    <property name="ToolbarStyle" type="empty"/>
-    <property name="ToolbarIconSize" type="empty"/>
     <property name="MenuImages" type="empty"/>
     <property name="ButtonImages" type="bool" value="false"/>
     <property name="MenuBarAccel" type="empty"/>
     <property name="CursorThemeName" type="string" value="Qogir"/>
     <property name="CursorThemeSize" type="int" value="24"/>
     <property name="DecorationLayout" type="string" value=":minimize,maximize,close"/>
+    <property name="DialogsUseHeader" type="empty"/>
+    <property name="TitlebarMiddleClick" type="empty"/>
+    <property name="ToolbarStyle" type="empty"/>
+    <property name="ToolbarIconSize" type="empty"/>
+  </property>
+  <property name="Gdk" type="empty">
+    <property name="WindowScalingFactor" type="empty"/>
+  </property>
+  <property name="Xfce" type="empty">
+    <property name="SyncThemes" type="bool" value="false"/>
   </property>
 </channel>
